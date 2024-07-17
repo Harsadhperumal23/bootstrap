@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Data Table</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa; /* Light gray background */
+            color: #000080; /* Dark blue text */
+            margin: 0;
+            padding: 2rem;
+        }
+        table {
+            width: 100%;
+            margin: 0 auto;
+            background-color: #ffffff; /* White background */
+        }
+        th {
+            background-color: #007bff; /* Bootstrap primary color background */
+            color: #ffffff; /* White text */
+        }
+        tr:nth-child(even) {
+            background-color: #e9ecef; /* Light gray for even rows */
+        }
+        tr:hover {
+            background-color: #ced4da; /* Darker gray on hover */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <table class="table table-bordered table-hover">
+            <thead>
+                <tr>
+                    <th>NAME</th>
+                    <th>AGE</th>
+                    <th>GENDER</th>
+                    <th>Mobno</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Rudra</td>
+                    <td>18</td>
+                    <td>MALE</td>
+                    <td>7896541233</td>
+                </tr>
+                <tr>
+                    <td>Poonkuzhazhi</td>
+                    <td>20</td>
+                    <td>FEMALE</td>
+                    <td>9876543211</td>
+                </tr>
+                <tr>
+                    <td>Yaazhan</td>
+                    <td>20</td>
+                    <td>MALE</td>
+                    <td>6549871233</td>
+                </tr>
+                <tr>
+                    <td>Tamil</td>
+                    <td>22</td>
+                    <td>FEMALE</td>
+                    <td>6935824711</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
